@@ -1,0 +1,23 @@
+{
+  "name": "lastseen",
+  "version": "0.0.0",
+  "description": "track when things were last seen",
+  "repository" : "https://github.com/sandfox/node-lastseen.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "redis",
+    "online",
+    "track"
+  ],
+  "author": "sandfox",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "redis": "0.8.x",
+    "fakeredis": "0.1.x",
+    "tape": "1.1.x",
+    "async": "0.2.x"
+  }
+}
